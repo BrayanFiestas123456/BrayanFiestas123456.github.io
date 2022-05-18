@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+    body>*{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+html{
+    background: url("https://s1.1zoom.me/b5050/492/Poland_Riverboat_Gda%C5%84sk_Night_Street_lights_Canal_590700_1920x1080.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+    .inicio{
+        background-color: rgba(216, 73, 73, 0.466);
+        text-align: center;
+        overflow:hidden;
+        padding: 20px;
+        color:rgb(7, 4, 4)
+    }
+
+.menu{
+    background-color: rgba(216, 73, 73, 0.801);
+    box-shadow:-1px 1px 7px 0px rgba(216, 73, 73, 0.438);
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    width: 400px;
+}
+.menu a{
+    color: rgba(3, 3, 5, 0.829);
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+
+}
+
+.menu a:hover{
+    background-color: rgba(224, 3, 3, 0.281);
+    font-size: large;
+    width: 508px;
+}
+
+.menu2 li ul{ 
+    display: none;
+    position: absolute;
+    width: 18px;
+}
+.menu2 li:hover > ul {
+display: block;
+}
+.menu2 li ul li{
+    position: relative;
+}
+.ts{
+    text-align: center;
+    font-size: 45px;
+}
+.contexto{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0 500px;
+    text-align: justify;
+    display: inline-block;
+}
+.video{
+    margin: 0px -120px;
+}
+    h1{
+        color: rgb(216, 73, 73);
+
+
+}
+h5{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(216, 73, 73);
+}
+
+.bandera img{
+    width: 500px;
+    display: block; 
+    box-shadow: 5px 5px 0 rgba(136, 7, 7, 0.5);
+    border: 3px solid rgba(139, 9, 9, 0.507);
+    margin: auto 100px;
+
+    float: right;
+}
+.bandera2 img{
+    width: 260px;
+    display: block; 
+    box-shadow: 5px 5px 0 rgba(136, 7, 7, 0.5);
+    border: 3px solid rgba(139, 9, 9, 0.507);
+    margin:  -35px 300px;
+
+    float: left;
+}
+    .contexto2{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin: 0 500px;
+        text-align: justify;
+        text-decoration: none;
+    
+    }
+footer{
+color: azure;
+margin: 600px;
+display: inline;
+
+
+}
+footer img{
+    width: 40px;
+    display: flex;
+    
+    
+}
